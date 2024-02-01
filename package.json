@@ -1,0 +1,15 @@
+{
+  "name": "saif-al-nabooda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./tailwind.css -o ./css/style.css",
+    "watch": "npx tailwindcss -i ./tailwind.css -o ./css/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
