@@ -3,3 +3,53 @@
 @tailwind utilities;
 
 /* custom css */
+/* header */
+
+.hamburger {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  cursor: pointer;
+}
+
+.line1,
+.line2,
+.line3 {
+  transition: all 0.3s;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: #000;
+  transform: rotate(0); /* ---check---- */
+}
+.line2 {
+  transform: translateY(7px);
+}
+.line3 {
+  transform: translateY(14px);
+}
+
+.menu-open {
+  transform: rotate(90deg);
+  transform: translateY(0px);
+}
+.menu-open .line1 {
+  transform: rotate(45deg) translateY(6px) translate(6px);
+}
+.menu-open .line2 {
+  display: none;
+}
+.menu-open .line3 {
+  transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+/* hero section */
+.hero {
+  background-image: url("../img/home/herobg.jpg");
+}
+.hero__overlay {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
