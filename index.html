@@ -11,6 +11,11 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <!-- google icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -107,20 +112,95 @@
     <!-- about us section -->
     <section id="about">
       <div
-        class="container flex flex-col md:flex-row items-center mx-auto px-3 mt-10 md:space-x-3 space-y-3 md:space-y-0 h-dvh"
+        class="container flex flex-col md:flex-row mx-auto px-3 mt-10 md:space-x-3 space-y-3 md:space-y-0 min-h-[700px]"
       >
-        <!-- about us descriptions -->
+        <!-- about us descriptions --left-->
         <div
-          class="bg-white flex-1 h-full border-0 rounded-md md:rounded-xl p-3 md:p-8"
+          class="bg-white flex-1 border-0 rounded-md md:rounded-xl p-3 md:p-8 lg:p-14 shadow-sm"
         >
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
-          deleniti molestiae aperiam facere, saepe sit architecto quas culpa
-          tempore libero rem nam necessitatibus deserunt provident in explicabo
-          a ipsa incidunt.
+          <h2
+            class="text-yellowDark font-semibold md:font-bold text-sm md:text-base uppercase"
+          >
+            About Us
+          </h2>
+          <h1
+            class="uppercase font-bebasNeue text-3xl md:text-5xl mb-2 md:mb-4"
+          >
+            custom fabrication
+          </h1>
+          <p class="text-sm lg:text-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae
+            quas, ipsa aliquam aperiam tempore tenetur nam sequi magni
+            laboriosam expedita obcaecati iusto placeat cupiditate magnam cum
+            velit pariatur quidem porro sint consequatur rem eligendi ad a? Sint
+            harum quisquam magnam voluptates <br />
+            repellendus cum enim dolorum aut maiores adipisci ad eveniet ea iste
+            reprehenderit exercitationem, corrupti obcaecati! Nam iste nisi
+            molestias quia quis cum. Earum pariatur et totam labore eum ex.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae
+            quas, ipsa aliquam aperiam tempore tenetur nam sequi magni
+            laboriosam expedita obcaecati iusto placeat cupiditate magnam cum
+          </p>
+          <!-- about us images -->
+          <div class="hidden lg:flex flex-row space-x-2 my-7">
+            <div
+              class="flex-1 border-0 rounded-md bg-gray-400 h-[150px] shadow-md"
+            >
+              <img
+                src="./img/home/about-1.jpg"
+                alt="about us image"
+                class="w-full h-full object-cover rounded-md"
+              />
+            </div>
+            <div
+              class="flex-1 border-0 rounded-md bg-gray-400 h-[150px] shadow-md"
+            >
+              <img
+                src="./img/home/about-2.jpg"
+                alt="about us image"
+                class="w-full h-full object-cover rounded-md"
+              />
+            </div>
+            <div
+              class="flex-1 border-0 rounded-md bg-gray-400 h-[150px] shadow-md"
+            >
+              <img
+                src="./img/home/about-3.jpg"
+                alt="about us image"
+                class="w-full h-full object-cover rounded-md"
+              />
+            </div>
+          </div>
+          <!-- about us features -icons and features-->
+          <div class="flex flex-col lg:flex-row space-y-4 lg:space-y-0 mt-3">
+            <div class="flex flex-1 items-center space-x-2">
+              <div
+                class="w-8 h-8 md:w-9 md:h-9 border-0 rounded-full bg-yellow flex justify-center items-center"
+              >
+                <span class="material-symbols-outlined text-white font-thin">
+                  handyman
+                </span>
+              </div>
+              <p class="text-xs md:text-sm font-semibold">
+                Delivering Best Product
+              </p>
+            </div>
+            <div class="flex flex-1 items-center space-x-2">
+              <div
+                class="w-8 h-8 md:w-9 md:h-9 border-0 rounded-full bg-yellow flex justify-center items-center"
+              >
+                <span class="material-symbols-outlined text-white font-thin">
+                  architecture
+                </span>
+              </div>
+              <p class="text-xs md:text-sm font-semibold">
+                Innovative Metal Solutions
+              </p>
+            </div>
+          </div>
         </div>
-        <div
-          class="bg-red flex-1 h-full border-0 rounded-md md:rounded-xl p-3 md:p-8"
-        >
+        <!-- about us Image -right-->
+        <div class="bg-red flex-1 border-0 rounded-md md:rounded-xl p-3 md:p-8">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit magni
           unde odio quos, sed distinctio voluptatibus nemo consequuntur ut rem!
         </div>
