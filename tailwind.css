@@ -51,5 +51,12 @@
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../img/home/herobg.jpg");
+    url("../img/home/herobg.jpg"); /* file path must be with respect to style.css */
+}
+/* about us section */
+.about {
+  background-image: url("../img/home/about-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
