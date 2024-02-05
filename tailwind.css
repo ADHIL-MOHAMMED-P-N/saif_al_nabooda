@@ -60,3 +60,11 @@
   background-size: cover;
   background-position: center;
 }
+/* contactus */
+
+.contact__usLeft {
+  background-image: url("../img/home/contact-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

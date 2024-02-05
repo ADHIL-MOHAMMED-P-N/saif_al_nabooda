@@ -21,6 +21,8 @@ module.exports = {
         darkPara: "#120F24",
         light: "#F7F7F7",
         whiteBg: "#F5F5F5",
+        navyBlue: "#13111E",
+        navyBlueLight: "#1C1B29",
       },
     },
   },
