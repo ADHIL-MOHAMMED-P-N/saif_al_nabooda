@@ -3,11 +3,14 @@
 @tailwind utilities;
 
 /* custom css */
-
+html {
+  scroll-behavior: smooth;
+}
 /* custom utitlity */
 .min-h-inherit {
   min-height: inherit;
 }
+
 /* header */
 
 .hamburger {
