@@ -1283,6 +1283,11 @@ video {
     line-height: 1;
   }
 
+  .md\:text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
   .md\:font-semibold {
     font-weight: 600;
   }
