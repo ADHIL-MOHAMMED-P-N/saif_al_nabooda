@@ -70,6 +70,22 @@ html {
   background-size: cover;
   background-position: center;
 }
+/* customer voice */
+.customer {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.customer__Img {
+  transition: all 0.5s;
+}
+.customer__active .customer__Img {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  opacity: 1;
+}
+.customer__active {
+  color: #b6a71d;
+}
+
 /* contactus */
 
 .contact__usLeft {
