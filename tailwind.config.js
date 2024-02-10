@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.html"],
+  content: [
+    "./*.html",
+    "./products/*.html",
+  ] /* update content according to file structure */,
   theme: {
     fontFamily: {
       bebasNeue: ["Bebas Neue", "sans-serif"],

@@ -647,6 +647,22 @@ video {
   margin-top: 5px;
 }
 
+.mt-\[-20px\] {
+  margin-top: -20px;
+}
+
+.mt-\[-50px\] {
+  margin-top: -50px;
+}
+
+.mt-\[-200px\] {
+  margin-top: -200px;
+}
+
+.mt-\[-100px\] {
+  margin-top: -100px;
+}
+
 .block {
   display: block;
 }
@@ -713,6 +729,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .flex-1 {
@@ -920,13 +940,27 @@ video {
   padding-bottom: 2.5rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
+.py-40 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.pb-40 {
+  padding-bottom: 10rem;
 }
 
 .text-center {
@@ -1166,6 +1200,20 @@ html {
   background-position: center;
 }
 
+/* ----------------------------products---------------------------- */
+
+.buffet__tableBg {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("/img/products/buffet/bugget-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .placeholder\:text-zinc-500::-moz-placeholder {
   --tw-text-opacity: 1;
   color: rgb(113 113 122 / var(--tw-text-opacity));
@@ -1370,6 +1418,10 @@ html {
     width: 66.666667%;
   }
 
+  .lg\:w-2\/3 {
+    width: 66.666667%;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -1433,5 +1485,11 @@ html {
   .lg\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .xl\:w-2\/3 {
+    width: 66.666667%;
   }
 }
