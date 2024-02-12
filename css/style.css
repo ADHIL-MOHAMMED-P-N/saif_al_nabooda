@@ -655,6 +655,34 @@ video {
   margin-top: 5px;
 }
 
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.mt-\[-30px\] {
+  margin-top: -30px;
+}
+
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.mt-\[-55px\] {
+  margin-top: -55px;
+}
+
+.mt-\[-20px\] {
+  margin-top: -20px;
+}
+
+.mt-\[-15px\] {
+  margin-top: -15px;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
 .block {
   display: block;
 }
@@ -833,6 +861,11 @@ video {
 
 .border-\[1px\] {
   border-width: 1px;
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .border-dark {
@@ -1022,6 +1055,14 @@ video {
   text-transform: uppercase;
 }
 
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
+
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -1191,6 +1232,19 @@ html {
 
 /* ----------------------------products Page---------------------------- */
 
+.products__hero {
+  min-height: calc(100vh - 60px);
+}
+
+.text-stroke {
+  color: black;
+  /* to set when webkit is not supported */
+  -webkit-text-fill-color: transparent;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
 .buffet__tableBg {
   background-image: linear-gradient(
       0deg,
@@ -1277,6 +1331,14 @@ html {
 
   .md\:mt-10 {
     margin-top: 2.5rem;
+  }
+
+  .md\:ml-4 {
+    margin-left: 1rem;
+  }
+
+  .md\:mt-\[-30px\] {
+    margin-top: -30px;
   }
 
   .md\:block {
@@ -1417,6 +1479,30 @@ html {
     margin-bottom: 2rem;
   }
 
+  .lg\:mt-\[-30px\] {
+    margin-top: -30px;
+  }
+
+  .lg\:mt-\[-50px\] {
+    margin-top: -50px;
+  }
+
+  .lg\:mt-\[-40px\] {
+    margin-top: -40px;
+  }
+
+  .lg\:mt-\[-60px\] {
+    margin-top: -60px;
+  }
+
+  .lg\:mt-\[-55px\] {
+    margin-top: -55px;
+  }
+
+  .lg\:ml-8 {
+    margin-left: 2rem;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -1499,6 +1585,11 @@ html {
 
   .lg\:text-left {
     text-align: left;
+  }
+
+  .lg\:text-9xl {
+    font-size: 8rem;
+    line-height: 1;
   }
 
   .lg\:text-base {
