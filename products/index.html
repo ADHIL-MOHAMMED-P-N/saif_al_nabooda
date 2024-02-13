@@ -436,31 +436,37 @@
         class="flex flex-col md:flex-row md:items-stretch mx-auto min-h-[500px]"
       >
         <div
-          class="flex-1 flex items-center justify-center contact__usLeft py-10 md:py-5"
+          class="flex-1 flex items-center px-3 md:justify-center contact__usLeft py-10 md:py-5"
         >
-          <div>
+          <div class="break-all">
             <h1
               class="uppercase font-bebasNeue text-5xl md:text-7xl mb-2 md:mb-4 text-yellow"
             >
               contact us
             </h1>
-            <p class="text-base mt-4">Address line 1</p>
-            <p class="text-base mt-1">Address line 2</p>
-            <p class="text-base mt-1">Address line 3</p>
-            <p class="text-base mt-1">+9712345678967</p>
-            <p class="text-base mt-1">+9712345678967</p>
-            <p class="text-base mt-1">saif.al.nabooda@email.com</p>
+            <p class="text-sm mt-4">AJMAN 81626 Sharjah,</p>
+            <p class="text-sm mt-1">United Arab Emirates</p>
+            <p class="text-sm mt-1">+971 58 982 1621</p>
+            <p class="text-sm mt-1">+971 58 982 1625</p>
+            <p class="text-sm mt-1">+971 56 483 1621</p>
+            <p class="text-sm mt-1">+971 58 982 1625</p>
+            <p class="text-sm mt-1">naboodametalironworks@gmail.com</p>
             <div class="mt-4">
               <h2
-                class="text-yellow font-semibold md:font-semibold text-base md:text-lg md:mb-1"
+                class="text-yellow font-semibold md:font-semibold text-base md:text-lg mb-4"
               >
                 Find Us On
               </h2>
               <div class="flex flex-row space-x-4">
+                <!-- socila icons -->
+                <!-- insta -->
                 <div
-                  class="border-[1px] border-white rounded-full w-10 h-10 flex items-center justify-center"
+                  class="rounded-full w-10 h-10 flex items-center justify-center bg-yellowDark hover:bg-yellow transition duration-200"
                 >
-                  <a href="">
+                  <a
+                    href="https://www.instagram.com/saif__al___nabooda?igsh=dWd4NTA4NmRncm53&utm_source=qr"
+                    target="_blank"
+                  >
                     <svg
                       width="30"
                       height="30"
@@ -487,8 +493,9 @@
                     </svg>
                   </a>
                 </div>
+                <!-- location -->
                 <div
-                  class="border-[1px] border-white rounded-full w-10 h-10 flex justify-center items-center"
+                  class="rounded-full w-10 h-10 flex justify-center items-center bg-yellowDark hover:bg-yellow transition duration-200"
                 >
                   <a href="">
                     <span class="material-symbols-outlined font-light mt-[5px]">
@@ -496,8 +503,24 @@
                     </span></a
                   >
                 </div>
-                <div class="border-[1px] border-white rounded-full w-10 h-10">
-                  <a href="">
+                <!-- phone -->
+                <div
+                  class="rounded-full w-10 h-10 flex justify-center items-center bg-yellowDark hover:bg-yellow transition duration-200"
+                >
+                  <a href="tel:+971589821621" target="_blank">
+                    <span class="material-symbols-outlined font-light mt-[5px]">
+                      call
+                    </span></a
+                  >
+                </div>
+                <!-- facebook -->
+                <div
+                  class="rounded-full w-10 h-10 bg-yellowDark hover:bg-yellow transition duration-200"
+                >
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61555765692313&mibextid=PtKPJ9"
+                    target="_blank"
+                  >
                     <svg
                       width="35px"
                       height="35px"
@@ -510,6 +533,31 @@
                         d="M20 12.05C19.9813 10.5255 19.5273 9.03809 18.6915 7.76295C17.8557 6.48781 16.673 5.47804 15.2826 4.85257C13.8921 4.2271 12.3519 4.01198 10.8433 4.23253C9.33473 4.45309 7.92057 5.10013 6.7674 6.09748C5.61422 7.09482 4.77005 8.40092 4.3343 9.86195C3.89856 11.323 3.88938 12.8781 4.30786 14.3442C4.72634 15.8103 5.55504 17.1262 6.69637 18.1371C7.83769 19.148 9.24412 19.8117 10.75 20.05V14.38H8.75001V12.05H10.75V10.28C10.7037 9.86846 10.7483 9.45175 10.8807 9.05931C11.0131 8.66687 11.23 8.30827 11.5161 8.00882C11.8022 7.70936 12.1505 7.47635 12.5365 7.32624C12.9225 7.17612 13.3368 7.11255 13.75 7.14003C14.3498 7.14824 14.9482 7.20173 15.54 7.30003V9.30003H14.54C14.3676 9.27828 14.1924 9.29556 14.0276 9.35059C13.8627 9.40562 13.7123 9.49699 13.5875 9.61795C13.4627 9.73891 13.3667 9.88637 13.3066 10.0494C13.2464 10.2125 13.2237 10.387 13.24 10.56V12.07H15.46L15.1 14.4H13.25V20C15.1399 19.7011 16.8601 18.7347 18.0985 17.2761C19.3369 15.8175 20.0115 13.9634 20 12.05Z"
                         fill="#fff"
                       />
+                    </svg>
+                  </a>
+                </div>
+                <!-- whatsapp -->
+                <div
+                  class="rounded-full w-10 h-10 flex justify-center items-center bg-yellowDark hover:bg-yellow transition duration-200"
+                >
+                  <a
+                    href="https://api.whatsapp.com/send?phone=+971564831621&text=Hi"
+                    target="_blank"
+                  >
+                    <svg
+                      width="25px"
+                      height="25px"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g>
+                        <path fill="none" d="M0 0h24v24H0z" />
+                        <path
+                          fill="white"
+                          fill-rule="nonzero"
+                          d="M2.004 22l1.352-4.968A9.954 9.954 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10a9.954 9.954 0 0 1-5.03-1.355L2.004 22zM8.391 7.308a.961.961 0 0 0-.371.1 1.293 1.293 0 0 0-.294.228c-.12.113-.188.211-.261.306A2.729 2.729 0 0 0 6.9 9.62c.002.49.13.967.33 1.413.409.902 1.082 1.857 1.971 2.742.214.213.423.427.648.626a9.448 9.448 0 0 0 3.84 2.046l.569.087c.185.01.37-.004.556-.013a1.99 1.99 0 0 0 .833-.231c.166-.088.244-.132.383-.22 0 0 .043-.028.125-.09.135-.1.218-.171.33-.288.083-.086.155-.187.21-.302.078-.163.156-.474.188-.733.024-.198.017-.306.014-.373-.004-.107-.093-.218-.19-.265l-.582-.261s-.87-.379-1.401-.621a.498.498 0 0 0-.177-.041.482.482 0 0 0-.378.127v-.002c-.005 0-.072.057-.795.933a.35.35 0 0 1-.368.13 1.416 1.416 0 0 1-.191-.066c-.124-.052-.167-.072-.252-.109l-.005-.002a6.01 6.01 0 0 1-1.57-1c-.126-.11-.243-.23-.363-.346a6.296 6.296 0 0 1-1.02-1.268l-.059-.095a.923.923 0 0 1-.102-.205c-.038-.147.061-.265.061-.265s.243-.266.356-.41a4.38 4.38 0 0 0 .263-.373c.118-.19.155-.385.093-.536-.28-.684-.57-1.365-.868-2.041-.059-.134-.234-.23-.393-.249-.054-.006-.108-.012-.162-.016a3.385 3.385 0 0 0-.403.004z"
+                        />
+                      </g>
                     </svg>
                   </a>
                 </div>
