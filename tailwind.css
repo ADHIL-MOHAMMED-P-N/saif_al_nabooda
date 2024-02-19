@@ -62,6 +62,16 @@ html {
     ),
     url("../img/home/herobg-2.png"); /* file path must be with respect to style.css */
 }
+@media screen and (max-width: 480px) {
+  .hero {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),
+      url("../img/home/herobg-mobile.jpg");
+  }
+}
 
 /* about us section */
 .about {
