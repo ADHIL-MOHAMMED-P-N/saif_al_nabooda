@@ -16,6 +16,8 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
+    <!-- aos animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -123,12 +125,22 @@
       <div class="w-full min-h-inherit flex justify-center items-center">
         <div class="text-center">
           <h1
+            data-aos="fade-in"
+            data-aos-delay="200"
             class="text-yellow font-medium text-6xl md:text-7xl font-bebasNeue"
           >
             SAIF AL NABOODA BUFFET ELEVATIONS
           </h1>
-          <h2 class="text-white text-4xl font-thin">We Build The Best</h2>
+          <h2
+            class="text-white text-4xl font-thin"
+            data-aos="fade-in"
+            data-aos-delay="300"
+          >
+            We Build The Best
+          </h2>
           <a
+            data-aos="fade-in"
+            data-aos-delay="400"
             href="#contact"
             class="font-bold p-3 px-6 text-dark inline-block mt-4 bg-white transition duration-200 hover:bg-gray-300"
           >
@@ -143,7 +155,7 @@
         class="container flex flex-col md:flex-row md:items-center mx-auto px-3 py-10 lg:py-20 md:space-x-3 space-y-3 md:space-y-0"
       >
         <!-- about us Image -left-->
-        <div class="md:basis-2/5">
+        <div class="md:basis-2/5" data-aos="fade-in" data-aos-delay="300">
           <img
             src="./img/home/about-4.jpg"
             alt="about us image"
@@ -151,7 +163,7 @@
           />
         </div>
         <!-- about us descriptions --right-->
-        <div class="flex-1">
+        <div class="flex-1" data-aos="fade-in" data-aos-delay="400">
           <h2
             class="text-yellowDark font-semibold md:font-semibold text-base md:text-lg uppercase md:mb-1"
           >
@@ -247,11 +259,15 @@
     <!-- Products --------------------------------------------->
     <section id="products">
       <div class="container mx-auto px-3 my-10 lg:my-20">
-        <h1 class="uppercase font-bebasNeue text-5xl md:text-7xl mb-2 md:mb-4">
+        <h1
+          class="uppercase font-bebasNeue text-5xl md:text-7xl mb-2 md:mb-4"
+          data-aos="fade-in"
+        >
           Our Products
         </h1>
         <!-- products images -->
         <div
+          data-aos="fade-in"
           class="flex flex-col md:flex-row md:space-x-3 space-y-3 md:space-y-0 mt-6"
         >
           <div class="flex-1 product__imgContainer">
@@ -299,7 +315,7 @@
           </div>
         </div>
 
-        <p class="text-sm lg:text-base mt-4">
+        <p class="text-sm lg:text-base mt-4" data-aos="fade-in">
           Experience elegance redefined with Saif Al Nabooda. Explore our
           curated collection of bespoke products, meticulously crafted to
           elevate every space with timeless sophistication. From custom
@@ -307,6 +323,7 @@
           your home.
         </p>
         <a
+          data-aos="fade-in"
           href="./products/"
           class="font-bold p-3 px-6 text-dark border-2 border-dark inline-block mt-4 ease-in hover:bg-black hover:text-white transition duration-200"
         >
@@ -438,7 +455,7 @@
         <div
           class="flex-1 flex items-center px-3 md:justify-center contact__usLeft py-10 md:py-5"
         >
-          <div class="break-all">
+          <div class="break-all" data-aos="fade-in" data-aos-delay="200">
             <h1
               class="uppercase font-bebasNeue text-5xl md:text-7xl mb-2 md:mb-4 text-yellow"
             >
@@ -570,6 +587,8 @@
           class="flex-1 bg-navyBlue flex items-center justify-center py-10 md:py-5"
         >
           <form
+            data-aos="fade-in"
+            data-aos-delay="200"
             action="https://formsubmit.co/naboodametalironworks@gmail.com"
             method="POST"
             class="w-11/12 lg:w-8/12 text-center md:text-left"
@@ -636,6 +655,7 @@
       </p>
     </footer>
     <!-- javascript -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>

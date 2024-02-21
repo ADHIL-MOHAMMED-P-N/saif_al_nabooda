@@ -4,6 +4,11 @@ const mobileLinks = document.querySelectorAll(".mobile__link");
 const customers = document.querySelectorAll(".customer");
 const customerReview = document.querySelector(".customer__review");
 
+/* ano animation */
+AOS.init({
+  offset: 100,
+  duration: 1000,
+});
 /* toggling hamburger button */
 hamburgerBtn.addEventListener("click", () => {
   hamburgerBtn.classList.toggle("menu-open");
